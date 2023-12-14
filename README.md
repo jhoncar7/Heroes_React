@@ -6,5 +6,5 @@
 > 3. Ejecutar ```yarn dev``` para ejecutar el proyecto de manera local en tu equipo.
 
 > [!NOTE]  
-> Ejecutar ```yarn build``` para generar la carpeta ```dist``` para desplegar en produccion.
-> Url del proyecto desplegado 👉 [URL](https://comics-marve-dc-jhon.netlify.app/).
+> * Ejecutar ```yarn build``` para generar la carpeta ```dist``` para desplegar en produccion.
+> * Url del proyecto desplegado 👉 [URL](https://comics-marve-dc-jhon.netlify.app/).
