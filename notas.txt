@@ -1,0 +1,23 @@
+OPCION 1: Desplegar en Netlify desde repositorio de GitHub
+
+- Previamente debemos de crear el archivo netlify.toml, en la raíz de nuestro proyecto.
+
+- Dentro de dicho archivo, colocamos lo siguiente:
+
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+- Esto es para que no se genere el error de pagina no encontrada, cuando ingresamos a alguna ruta directamente, sin antes pasar por la ruta principal.
+
+- Ahora podemos seguir con los pasos que se indican mas adelante.
+
+
+OPCION 2: Desplegar en Netlify desde la carpeta generada por el build
+
+- Previamente debemos de crear una archivo llamado _redirects, en la carpeta public.
+
+- Dentro de dicho archivo, colocamos lo siguiente:
+
+/*    /index.html   200 
+- Luego ya podemos realizar los pasos indicados a continuacion.
